@@ -6,15 +6,11 @@ Add-PowerAppsAccount -Username $adminUserName -Password $securePassword
 #ポリシーの名前
 $newDLPPolicyName = "XXXX"
 
-#既定のグループ
-$defaultConnectorsClassification = "General"
-
 #入力用CSVのファイルパス
 $inputCSVFilePath = ".\DLPPolicy.csv"
 
 #DLPポリシーを作成する
 $newDLPPolicy = New-DlpPolicy -DisplayName $newDLPPolicyName -EnvironmentType "AllEnvironments"
-$newDLPPolicy.defaultConnectorsClassification = $defaultConnectorsClassificatio
 
 #入力用CSVからコネクタの情報をインポートする
 $csv = Import-Csv -Path $inputCSVFilePath -Encoding UTF8 | select Group,Name,ID,Type
