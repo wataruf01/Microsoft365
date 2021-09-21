@@ -1,4 +1,4 @@
- #実行アカウント
+#実行アカウント
 $adminUserName  = "XXX@XXX.onmicrosoft.com"
 $securePassword = "XXX" | ConvertTo-SecureString -AsPlainText -Force
 Add-PowerAppsAccount -Username $adminUserName -Password $securePassword
