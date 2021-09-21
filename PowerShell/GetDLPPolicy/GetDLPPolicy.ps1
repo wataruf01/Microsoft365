@@ -5,8 +5,6 @@ Add-PowerAppsAccount -Username $adminUserName -Password $securePassword
 #対象のDLPポリシーを指定
 $dlpPolicy = Get-DlpPolicy -PolicyName "XXXX-XXXX-XXX-XXXX-XXXX"
 
-$ConnectorGroups = $dlpPolicy.connectorGroups
-
 $connectors = @()
 
 $businessDataGroup = $dlpPolicy.connectorGroups | where classification -EQ "Confidential"
