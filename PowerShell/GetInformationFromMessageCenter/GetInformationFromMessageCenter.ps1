@@ -10,7 +10,7 @@ $clientID = "XXX-XXX-XXX-XXX-XXX"
 #MSALのリダイレクトURL
 $MSALRedirectUri = "msalXXX-XXX-XXX-XXX-XXX://auth"
 
-#-------------------------------------------------
+-------------------------------------------------
 #認証情報を取得
 #------------------------------------------------- 
 #トークンを取得
@@ -29,5 +29,29 @@ $headerParams = @{
 #------------------------------------------------- 
 $url = "https://graph.microsoft.com/v1.0/admin/serviceAnnouncement/messages"
 $contentType = "application/json"
-$result = Invoke-RestMethod -Method "GET" -Uri $url -Headers $headerParams -ContentType $ContentType
-$result.value | Out-GridView
+
+$responseFromAPI = Invoke-RestMethod `
+-Method  GET `
+-uri     $pages `
+-Headers $headerParams `
+-ContentType $contentType
+
+$result = @()
+$result += $responseFromAPI.value
+
+$pages = $responseFromAPI.'@odata.nextLink'
+
+while([string]::IsNullOrEmpty($pages) -eq $false)
+{
+    $addtional = Invoke-RestMethod `
+    -Method  GET `
+    -uri     $pages `
+    -Headers $headerParams `
+    -ContentType $contentType
+                  
+    $result += $addtional.value
+
+    $pages = $addtional."@odata.nextLink"
+}
+
+$result | Out-GridView
