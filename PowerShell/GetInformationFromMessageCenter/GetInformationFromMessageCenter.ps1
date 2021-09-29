@@ -32,7 +32,7 @@ $contentType = "application/json"
 
 $responseFromAPI = Invoke-RestMethod `
 -Method  GET `
--uri     $pages `
+-uri     $url `
 -Headers $headerParams `
 -ContentType $contentType
 
