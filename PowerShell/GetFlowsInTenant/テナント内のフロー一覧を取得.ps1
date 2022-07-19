@@ -8,8 +8,14 @@ Connect-PnPOnline "https://xxx.sharepoint.com" -Credentials $credential
 Connect-AzureAD -Credential $credential
 
 #テナント内のフローを取得
-$environment = Get-PnPPowerPlatformEnvironment
-$flows = Get-PnPFlow -Environment $environment -AsAdmin
+$environments = Get-PnPPowerPlatformEnvironment
+
+$flows = @()
+
+foreach($environment in $environments)
+{
+    $flows += Get-PnPFlow -Environment $environment -AsAdmin
+}
 
 #すべてのAzureADユーザーを取得
 $allUsers = Get-AzureADUser -All $true
