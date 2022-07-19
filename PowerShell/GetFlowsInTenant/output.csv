@@ -1,0 +1,24 @@
+﻿名前,環境,フローID,作成者アドレス,作成者名,作成日時,ステータス,アクションの個数
+会議出席者レポートに部署情報を追加,Default-688cdea3-eec2-4ad7-b65b-3b2b2e535888,0aefa473-7ced-46b3-be49-19df91225ac8,admin@xxx.OnMicrosoft.com,Administrator MOD,2022/7/5 11:16,Started,11
+簡易版JSON Dictionaryを作成するフロー,Default-688cdea3-eec2-4ad7-b65b-3b2b2e535888,158e0f0e-57c5-4e26-8123-626e2103899c,admin@xxx.OnMicrosoft.com,Administrator MOD,2022/5/27 13:29,Started,4
+正常性レポートをTeams に投稿する（3時間おき） - 3 - 2,Default-688cdea3-eec2-4ad7-b65b-3b2b2e535888,48dafab1-52ad-44fc-908d-bdf766289b99,admin@xxx.OnMicrosoft.com,Administrator MOD,2022/5/9 9:11,Stopped,9
+タグでフローを実行,Default-688cdea3-eec2-4ad7-b65b-3b2b2e535888,535a5055-98b4-4748-a0bc-2da9115cadc3,admin@xxx.OnMicrosoft.com,Administrator MOD,2022/5/3 7:13,Started,27
+CSV読み込み,Default-688cdea3-eec2-4ad7-b65b-3b2b2e535888,607e04f4-dce6-4be2-b259-59d6c31891a3,admin@xxx.OnMicrosoft.com,Administrator MOD,2022/7/13 12:20,Started,13
+既存のリストから新しいリストを作成,Default-688cdea3-eec2-4ad7-b65b-3b2b2e535888,6bfdadab-5e26-4104-a23c-e5f4a97b523d,admin@xxx.OnMicrosoft.com,Administrator MOD,2022/5/14 8:41,Started,5
+ハッシュタグ機能のようなことをする,Default-688cdea3-eec2-4ad7-b65b-3b2b2e535888,7fba7af1-20b9-411b-8326-3da87f96b14a,admin@xxx.OnMicrosoft.com,Administrator MOD,2022/5/20 5:37,Started,2
+提出状況をチェック,Default-688cdea3-eec2-4ad7-b65b-3b2b2e535888,95b54345-f438-4fa6-be27-15532cb832c2,admin@xxx.OnMicrosoft.com,Administrator MOD,2022/4/7 23:46,Started,34
+スレッドをOneDriveにCSV保存,Default-688cdea3-eec2-4ad7-b65b-3b2b2e535888,989df1de-0eb3-47c0-98f6-af4a266bbd51,admin@xxx.OnMicrosoft.com,Administrator MOD,2022/5/22 14:14,Started,28
+フォームの未回答者をチェック,Default-688cdea3-eec2-4ad7-b65b-3b2b2e535888,b4dc4ccc-7153-4eb0-b236-0d60bd1d0119,admin@xxx.OnMicrosoft.com,Administrator MOD,2022/6/19 6:09,Started,37
+チーム一覧を取得,Default-688cdea3-eec2-4ad7-b65b-3b2b2e535888,c869caec-ae4b-4230-b335-5569ca1fe9f6,admin@xxx.OnMicrosoft.com,Administrator MOD,2022/6/4 17:09,Started,19
+コピー - 正常性レポートをTeams に投稿する（3時間おき） - 3 - 2,Default-688cdea3-eec2-4ad7-b65b-3b2b2e535888,cc00667f-9ca5-4289-849e-0d2358678b6c,admin@xxx.OnMicrosoft.com,Administrator MOD,2022/5/9 9:15,Stopped,9
+特定のタグがつかわれたらアクションを実行,Default-688cdea3-eec2-4ad7-b65b-3b2b2e535888,cca1c56f-f5bf-4d2c-a7df-02f1241656fd,admin@xxx.OnMicrosoft.com,Administrator MOD,2022/4/23 16:13,Stopped,10
+すべてのサイトの容量をCSV保存,Default-688cdea3-eec2-4ad7-b65b-3b2b2e535888,dd385d26-2194-428e-82e0-7871a566d31a,admin@xxx.OnMicrosoft.com,Administrator MOD,2022/5/1 3:03,Started,9
+PlannerでバケットIDをキーにしてバケット名を取得する,Default-688cdea3-eec2-4ad7-b65b-3b2b2e535888,e2e08524-8608-49c0-871e-1c3347dda203,admin@xxx.OnMicrosoft.com,Administrator MOD,2022/7/14 3:36,Started,4
+フォームの未回答者にメールを送信,Default-688cdea3-eec2-4ad7-b65b-3b2b2e535888,ed76fd8c-42b8-4b09-b2fb-8911bbb436b6,admin@xxx.OnMicrosoft.com,Administrator MOD,2022/7/10 11:38,Started,33
+「重要フラグ」がたっている,Default-688cdea3-eec2-4ad7-b65b-3b2b2e535888,f7596c3f-aa4d-45f2-ab34-9addbf2790c5,admin@xxx.OnMicrosoft.com,Administrator MOD,2022/7/5 0:22,Started,5
+テナント内のフロー一覧をCSVに出力,Default-688cdea3-eec2-4ad7-b65b-3b2b2e535888,fe6adfb3-a3db-45c5-b5bd-77197766e33d,admin@xxx.OnMicrosoft.com,Administrator MOD,2022/7/18 11:03,Started,11
+添付ファイルのファイルパスを確認,Default-688cdea3-eec2-4ad7-b65b-3b2b2e535888,ffb58058-0704-4ade-82a7-244c5d244752,admin@xxx.OnMicrosoft.com,Administrator MOD,2022/3/31 3:25,Started,10
+回答日時管理テーブルを更新,Default-688cdea3-eec2-4ad7-b65b-3b2b2e535888,1efbefad-9978-4d4f-92b0-c704360d4e3f,MiriamG@xxx.OnMicrosoft.com,Miriam Graham,2022/6/11 13:05,Started,2
+回答していないひととを抽出,Default-688cdea3-eec2-4ad7-b65b-3b2b2e535888,3b427084-94c8-4cd0-b461-55e72a108c30,MiriamG@xxx.OnMicrosoft.com,Miriam Graham,2022/6/11 12:11,Started,4
+投稿があったら通知,Default-688cdea3-eec2-4ad7-b65b-3b2b2e535888,409b1322-16c5-4dd1-ac82-5ff1f4fa8298,MiriamG@xxx.OnMicrosoft.com,Miriam Graham,2022/4/15 10:49,Suspended,2
+未回答者のチェック,Default-688cdea3-eec2-4ad7-b65b-3b2b2e535888,6804d2ee-869a-4e88-a5e8-1752266a2ac9,MiriamG@xxx.OnMicrosoft.com,Miriam Graham,2022/6/12 6:07,Started,3
