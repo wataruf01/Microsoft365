@@ -8,7 +8,7 @@ Connect-PnPOnline "https://xxx.sharepoint.com" -Credentials $credential
 Connect-AzureAD -Credential $credential
 
 #テナント内のフローを取得
-$environments = Get-PnPPowerPlatformEnvironment
+$environments = @(Get-PnPPowerPlatformEnvironment)
 
 $flows = @()
 
